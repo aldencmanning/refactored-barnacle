@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Example Page</title>
+  </head>
+  <body>
+    <?php
+      // get the url parameters
+      $h1 = $_GET['h1'];
+      $h2 = $_GET['h2'];
+      $h3 = $_GET['h3'];
+
+      // display the h1, h2 and h3 tags with their parameter values
+      echo "<h1>$h1</h1>";
+      echo "<h2>$h2</h2>";
+      echo "<h3>$h3</h3>";
+    ?>
+  </body>
+</html>
